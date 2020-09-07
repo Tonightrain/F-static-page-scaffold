@@ -51,6 +51,38 @@ select{
   color: white;
 }
 
+main{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+section{
+  background-color: white;
+  width: 550px;
+  height: 450px;
+}
+
+.sections{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.sections button{
+  background-color: #e9ebee;
+  color: black;
+  margin-top: 70px;
+}
+
+.sections img{
+  margin-top: 25px;
+}
+
+.sections p{
+  color: gray;
+}
+
 
 
 
