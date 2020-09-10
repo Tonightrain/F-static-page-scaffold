@@ -41,14 +41,30 @@ button{
   background-color:#42b72a;
   border: none;
   color: white;
+  border-radius: 1px;
 }
 
-select{
+.join{
+  display: flex;
+  /*align-items: center;*/
+  justify-content: space-between;
   margin-right: 200px;
-  height: 40px;
-  border: 0;
-  background-color: #3b5998;
-  color: white;
+}
+
+/*select{*/
+/*  margin-right: 200px;*/
+/*  height: 40px;*/
+/*  border: 0;*/
+/*  background-color: #3b5998;*/
+/*  color: white;*/
+/*}*/
+
+.triangle{
+  margin: 25px auto auto 4px;
+  border-top: 4px solid white;
+  border-left: 4px solid #3b5998;
+  border-right: 4px solid #3b5998;
+  border-bottom: 4px solid #3b5998;
 }
 
 main{
@@ -60,6 +76,7 @@ section{
   background-color: white;
   width: 550px;
   height: 450px;
+  border-radius: 4px;
 }
 
 .sections{
@@ -72,11 +89,14 @@ section{
 .sections button{
   background-color: #e9ebee;
   color: black;
-  margin-top: 70px;
+  margin-top: 35px;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 1px;
 }
 
 .sections img{
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .sections p{
